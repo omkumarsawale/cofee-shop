@@ -1,0 +1,49 @@
+
+
+
+
+/* .https://www.shutterstock.com/image-vector/iced-coffee-pouring-down-into-takeaway-1086585476 */
+
+/* header-section */
+
+.bg-images{
+    background-image: url("https://d3nn873nee648n.cloudfront.net/900x600/15396/120-SM618865.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-images .bg-img-btn {
+    padding: 14px 13px 18px 16px;
+    margin-bottom: 20px;
+    color: wheat;
+}
+h1.heading-one.Display-1.mt-4 {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: wheat;
+}
+ 
+a.navbar-brand.mx-auto.fs-4.text {
+    font-size: 40px;
+    /* text-decoration: auto; */
+    font-style: oblique;
+}
+
+.Always-amazing {
+    padding: 161px 0px 0px 4px;
+}
+
+.Great-variety{
+    
+        padding: 324px 0px 0px 0px;
+    width:50%;
+}
+
+.img-sec-three{
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px
+}
