@@ -1,49 +1,469 @@
 
+/* background-images csss */
 
 
-
-/* .https://www.shutterstock.com/image-vector/iced-coffee-pouring-down-into-takeaway-1086585476 */
-
-/* header-section */
-
-.bg-images{
-    background-image: url("https://d3nn873nee648n.cloudfront.net/900x600/15396/120-SM618865.jpg");
+.hero-images{
+    background-image:url('https://d3nn873nee648n.cloudfront.net/900x600/17074/220-SM750524.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
     background-size: cover;
 }
+.active:hover{
+    background: red;
+}
+.active{
+text-decoration: double 1px solid white;
+background-color: red;
 
-.bg-images .bg-img-btn {
-    padding: 14px 13px 18px 16px;
-    margin-bottom: 20px;
-    color: wheat;
 }
-h1.heading-one.Display-1.mt-4 {
-    font-size: 100px;
-    margin-bottom: 20px;
+.nav-img-amzion{
+    width: 60px;
+    height: 60px;
+    display: block;
 }
-.nav-item .nav-link{
+.navbar-nav li a:hover{
+    text-decoration: double wheat;
+    border-left: red;
+}
+.hero-images .navbar-nav{
+    font-size: 20px;
+}
+
+.hero-images .navbar-brand{
+    font-size: 57px;
+}
+
+
+.Welcome-to .Wel-come {
+    border-radius: 50px;
+    font-size: 32px;
+   border: 1px solid white;
+    padding: 0px 39px;
+}
+
+/* about section start here */
+
+.frist-para-about {
+    width: 50%;
+    /* text-align: end; */
+    margin: 0px 238px;
+    font-size: 18px;
+}
+
+.list-line-section h5 i{
+color: red;
+
+}
+.Ullamco .Ullamco-1 .btn{
+    
+        margin: 29px 86px;
+        /* cursor: pointer; */
+        padding: 4px 105px;
+        border-radius: 35px;
+
+}
+
+/* <!-- services section --> */
+
+
+.services-hed{
+    
+        font-size: 13px;
+        letter-spacing: 1px;
+        font-weight: 700;
+        padding: 8px 20px;
+        line-height: 1;
+        margin: 0;
+       
+        color: #e43c5c; background: #fdeff2;
+        display: inline-block;
+        text-transform: uppercase;
+        border-radius: 50px;
+}
+
+
+/* <!-- card-sectipn --> */
+
+.cad-1{
+    box-shadow: 
+    2px 0 35px 0 rgb(68 88 144 / 12%);
+    transition:all 0.3s ease-in-out ;
+    border-radius: 8px;
+}
+.ani-div:hover{
+    box-shadow: 
+    2px 0 35px 0 rgb(68 88 144 / 12%);
+    transition:all 0.3s ease-in-out;
+    border-radius: 8px;
+    background-color: aqua;
+}
+
+/* Lorem Ipsum */
+
+.Lorem-Ipsum{
+    display: flex;
+  flex-direction: row; 
+  margin-bottom: 15px;
+}
+
+.Lo-rem{
+    margin: 2px 15px;
     font-size: 16px;
-    text-transform: uppercase;
-    color: wheat;
+}
+.Lo-rem:hover,:active,:focus{
+    color: red;
+}
+
+
+/* 
+<!-- Call To Action --> */
+
+
+
+.hero-images-2{
+    background-image: url("https://d3nn873nee648n.cloudfront.net/900x600/17243/220-SM757399.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+
+.hero-images-2-btn{
+    margin: 29px 86px;
+    /* cursor: pointer; */
+    padding: 4px 105px;
+    border-radius: 35px;
 }
  
-a.navbar-brand.mx-auto.fs-4.text {
-    font-size: 40px;
-    /* text-decoration: auto; */
-    font-style: oblique;
-}
+.list-my li {
+    list-style: none; 
+    padding: 10px 10px;
+    font-size: 18px; 
+    text-align: center;
+    display: inline-flex;
+    text-transform: capitalize;
+    margin-top: 15px;
+} 
 
-.Always-amazing {
-    padding: 161px 0px 0px 4px;
+.list-my li:hover{
+    background-color: #e43c5c;
 }
-
-.Great-variety{
+.list-my li{
+     font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    line-height: 1;
     
-        padding: 324px 0px 0px 0px;
-    width:50%;
+    background: #fdeff2;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+.Call-To{
+    font-size: 28px;
+}
+.Duis-aute{
+    font-size: 16px;
 }
 
-.img-sec-three{
-    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px
+/* =========================img-container=========================================== */
+
+
+.img-container{
+    position: relative;
 }
+.img-container:hover{
+   position: absolute;
+    top: 0;
+    transition: all 0.1s cubic-bezier(0.300, 0.015, 0.200, 1);
+    /* box-shadow: #fdeff2;
+    border: 1 px solid black; */
+}
+.pricing .box {
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #f9f9f9;
+}
+
+.pricing .box h4 {
+    font-size: 42px;
+    color: #e43c5c;
+    font-weight: 500;
+    /* font-family: "Open Sans", sans-serif; */
+    margin-bottom: 20px;
+}
+.pricing .box .btn-buy:hover {
+    background: #e43c5c;
+    color: #fff;
+}
+.pricing .box ul .na {
+    color: #ccc;
+    text-decoration: line-through;
+}
+.pricing .box .btn-buy {
+    display: inline-block;
+    padding: 8px 40px 10px 40px;
+    border-radius: 50px;
+    border: 2px solid #e43c5c;
+    color: #e43c5c;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btn-link{
+    text-decoration:wheat;
+}
+
+.btn-link:hover,:active:focus{
+    color: #000;
+    text-decoration:none;
+}
+
+.Lo-rem:hover, :active, :focus {
+    color: black !important;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    /* word-wrap: break-word; */
+    /* background-color: #fff; */
+    background-clip: border-box;
+    border: 1px solid rgba(156, 98, 10, 0.125);
+    border-radius: .25rem;
+}
+
+
+.blank-section{
+    height:200px;
+    width:1300px;
+}
+
+
+/* ===============================contact section-start ==============================================*/
+
+
+.Location{
+    font-size:20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    line-height: 1;
+    margin: 0;
+   
+    color: #e43c5c; background: #fdeff2;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.Location:hover{
+    background-color: #e2d3d5;
+}
+
+.Location-list {
+    list-style: none;
+    margin: 8px -32px;
+    padding: 9px 10px;
+}
+
+
+
+/*============================================ info-section =======================================*/
+
+.info-section{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+
+.Tempo li{
+    list-style: none;
+    /* margin: 8px -32px;
+    padding: 9px 10px; */
+    
+}
+
+
+ul.Tempo.text-muted {
+    padding: 10px;
+    padding: 10px 10px;
+    margin: 8px -32px
+}
+
+.list-icon{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+
+}
+
+
+.list-icon .fa-brands, .fab {
+    font-weight: 400;
+    left: 10px;
+    padding-left: 15px;
+}
+
+/* .list-icon li{
+    padding:10px;
+}
+
+h6.display-6 {
+    margin: 78px 0px;
+}
+
+.fa-whatsapp{
+    margin: 78px 0px;
+} */
+
+
+
+/* responsive web  */
+
+
+@media (max-width: 991px)
+.mobile-nav-toggle{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+@media all and (max-width:768px){
+    .Welcome-to h3{
+        font-size: 22px;
+    }
+    .Welcome-to h1{
+        font-size: 33px;
+        letter-spacing: 4px;
+    }
+    .Welcome-to h4{
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+    .Welcome-to .Wel-come{
+        font-size: 21px;
+    letter-spacing: 2px;
+    padding: 5px;
+    }
+    .about-section p{
+        margin: 0px 26px 0px 48px;
+        font-size: 19px;
+        padding-left: -32px;
+        width: 100%;
+    }
+    .about-section h1{
+        font-size: 27px;
+        margin-right: -63px;
+    }
+.list-line-section p{
+    padding: 0px 0px 0px 48px;
+    width: 100%;
+    font-size: 16px;
+    margin: 0px 1px 17px 40px;
+}
+.h5, h5 {
+    font-size: 1.25rem;
+    padding: 0px 1px 4px 0;
+    margin: -1px 0px 0px 57px;
+    width: 100%;
+    margin-bottom: 12px;
+}
+.Ullamco p{
+    
+        margin-top: 0;
+        margin-bottom: 1rem;
+        padding: 0 0 0 74px;
+        margin: -6px 38px 37px 13px;
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+   
+}
+.card{
+ 
+    margin-top: 16px;
+}
+
+.frist-para-about {
+    width:100%;
+    text-align: end;
+    margin: 0px 0px;
+    font-size: 18px;
+    text-align: center;
+}
+.pricing .box{
+    margin-bottom: 15px;
+}
+
+
+h5.text-center {
+    font-size: 15px;
+    text-align: center;
+    padding: 3px 57px 0px 0px;
+    margin: 0 0 0 2px;
+}
+h6.text-center {
+    font-size: 15px;
+    text-align: center;
+    padding: 3px 57px 0px 0px;
+    margin: 0 0 0 2px;
+}
+
+.Location-list {
+    list-style: none;
+    margin: 17px 63px;
+    padding: 9px 25px;
+    font-size: 14px;
+}
+
+.Tempo li {
+    list-style: none;
+    padding: 0 0 0 0;
+    margin: 2px 13px 0px 84px;
+}
+
+.list-temop{
+    text-align: center;
+    text-align: center;
+    padding: 0 114px 5px 6px;
+}
+
+
+.list-icon .fa-brands, .fab {
+    font-weight: 400;
+    left: 10px;
+    /* padding-left: 15px; */
+    padding: 0px 11px 25px 31px;
+    font-size: 40px;
+    margin: -19px 0px 4px 6px;
+}
+
+
+
+
